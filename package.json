@@ -9,15 +9,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxt/content": "^2.7.0",
+    "@nuxt/content": "^2.9.0",
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.0",
-    "@nuxtjs/device": "^3.1.0",
-    "nuxt": "^3.7.4",
+    "@nuxtjs/device": "^3.1.1",
+    "nuxt": "^3.8.0",
     "postcss-hexrgba": "^2.1.0",
     "postcss-import": "^15.1.0",
     "postcss-nested": "^6.0.1",
-    "vue": "^3.3.4",
+    "vue": "^3.3.7",
     "vue-router": "^4.2.5"
   },
   "dependencies": {

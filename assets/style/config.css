@@ -1,0 +1,36 @@
+:root {
+  /* Font Stack */
+  --p-font: 'Public Sans', sans-serif;
+  --s-font: 'Libre Baskerville', sans-serif;
+
+  /* Primary Colors */
+  --b-color: #fcfaf9; /* bg */
+  --s-color: #f7d1bc; /* secondary */
+  --t-color: #b8bdd8; /* trinary */
+
+  --w-color: #ffffff; /* white */
+  --l-color: #308fe7; /* link */
+  --e-color: #d30012; /* error */
+  --hr-color: #0000001e; /* hr */
+
+  /* Font Colors */
+  --f-color: #4e4c4b; /* primary */
+  --fs-color: #5f5e5d; /* secondary */
+  --ft-color: #313131; /* trinary */
+  --fq-color: #000; /* quaternary */
+  --fh-color: #262a30; /* hover */
+  --h-color: #f16114; /* highlight */
+
+  /* Dark Mode */
+  --db-color: #1b1b1b; /* bg */
+  --ds-color: #222222; /* secondary */
+
+  --dhr-color: #ffffff1a; /* hr */
+  --dhrs-color: #ffffff69; /* hr focus */
+
+  --df-color: #dfdcdb; /* primary */
+  --dfs-color: #8a8888; /* secondary */
+  --dft-color: #d4d3d3; /* trinary */
+  --dfq-color: #b4b1b1; /* quaternary */
+  --dfh-color: #d8d8d8; /* hover */
+}

@@ -1,0 +1,79 @@
+/* public-sans-300 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/assets/fonts/public-sans/public-sans-v15-latin-300.woff2') format('woff2'),
+       url('/assets/fonts/public-sans/public-sans-v15-latin-300.ttf') format('truetype');
+}
+
+/* public-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/public-sans/public-sans-v15-latin-regular.woff2') format('woff2'),
+       url('/assets/fonts/public-sans/public-sans-v15-latin-regular.ttf') format('truetype');
+}
+
+/* public-sans-500 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/assets/fonts/public-sans/public-sans-v15-latin-500.woff2') format('woff2'),
+       url('/assets/fonts/public-sans/public-sans-v15-latin-500.ttf') format('truetype');
+}
+
+/* public-sans-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/assets/fonts/public-sans/public-sans-v15-latin-600.woff2') format('woff2'),
+       url('/assets/fonts/public-sans/public-sans-v15-latin-600.ttf') format('truetype');
+}
+
+/* public-sans-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/public-sans/public-sans-v15-latin-700.woff2') format('woff2'),
+       url('/assets/fonts/public-sans/public-sans-v15-latin-700.ttf') format('truetype');
+}
+
+/* public-sans-800 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/assets/fonts/public-sans/public-sans-v15-latin-800.woff2') format('woff2'),
+       url('/assets/fonts/public-sans/public-sans-v15-latin-800.ttf') format('truetype');
+}
+
+/* libre-baskerville-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/libre-baskerville/libre-baskerville-v14-latin-regular.woff2') format('woff2'),
+       url('/assets/fonts/libre-baskerville/libre-baskerville-v14-latin-regular.ttf') format('truetype');
+}
+
+/* libre-baskerville-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/assets/fonts/libre-baskerville/libre-baskerville-v14-latin-700.woff2') format('woff2'),
+       url('/assets/fonts/libre-baskerville/libre-baskerville-v14-latin-700.ttf') format('truetype');
+}

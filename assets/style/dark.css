@@ -1,0 +1,241 @@
+
+.dark-mode {
+  color-scheme: dark;
+
+  body {
+    background: var(--db-color);
+  }
+
+  a,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label {
+    color: var(--df-color);
+  }
+
+  header {
+    background: var(--ds-color);
+    border-color: var(--dhr-color);
+  
+    .nav {  
+      .logo {
+        .hns,
+        .dir {
+          color: var(--df-color);
+        }
+
+        .hns {
+          line-height: 1.75rem;
+        }
+      }
+
+      select {
+        color: var(--dfs-color);
+        background: var(--ds-color);
+
+        &:hover {
+          color: var(--dfh-color);
+        }
+      }
+  
+      .cta,
+      .links {
+        li a {
+          color: var(--dfs-color);
+
+          &:hover {
+            color: var(--dfh-color);
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    border-color: var(--dhr-color);
+  
+    .bottom .nav {
+      li {
+        a,
+        p {
+          color: var(--df-color);
+        }
+      }
+
+      .highlight a {
+        color: var(--h-color);
+      }
+    }
+  }
+
+  .sidebar li {
+    a,
+    label {
+      color: var(--dfs-color);
+    }
+  }
+
+  .index .content {
+    
+    h1,
+    h2,
+    h3 {
+      color: var(--dft-color);
+    }
+
+    p {
+      color: var(--dfq-color);
+    }
+  
+    .card {
+      background: var(--ds-color);
+      border-color: var(--dhr-color);
+    }
+
+    .cta,
+    .guides a {
+      border-color: var(--dhr-color);
+  
+      &:hover {
+        background: var(--ds-color);
+        border-color: var(--dhr-color);
+      }
+    }
+
+    .secondary {
+      color: var(--df-color);
+    }
+  }
+
+  .alert {
+    background: var(--ds-color);
+    border-color: var(--dhr-color);
+
+    a {
+      color: var(--l-color);
+    }
+  }
+
+  .category .content {
+
+    h2 {
+      color: var(--dft-color);
+    }
+
+    p {
+      color: var(--dfq-color);
+    }
+  }
+
+  .category .content .card {
+    background: var(--ds-color);
+    border-color: var(--dhr-color);
+
+    .desc {
+      color: var(--dfq-color);
+    }
+  
+    .links {
+      .url {
+        border-color: var(--dhr-color);
+  
+        &:hover {
+          background: var(--db-color);
+          border-color: var(--dhr-color);
+        }
+      }
+  
+      .owner,
+      .code,
+      .icann {
+        span {
+          color: var(--dfs-color);
+        }
+  
+        &:hover span {
+          color: var(--h-color);
+        }
+      }
+  
+      .icann {
+        .tooltip {
+          background: var(--ds-color);
+          border-color: var(--dhr-color);
+  
+          p {
+            color: var(--dfs-color);
+          }
+        }
+      }
+    }
+  }
+
+  .about,
+  .submit,
+  .guide,
+  .stats {
+    .content {
+      h2,
+      h3,
+      h4 {
+        a {
+          color: var(--dft-color);
+        }
+      }
+    
+      p {
+        color: var(--dfq-color);
+      }
+
+      code {
+        color: var(--dfs-color);
+      }
+    
+      ul li {
+        color: var(--dft-color);
+      }
+    
+    }
+
+    form {
+  
+      label {
+        color: var(--dfs-color);
+
+        span {
+          color: var(--e-color);
+        }
+      }
+  
+      textarea,
+      input {
+        color: var(--df-color);
+        background: var(--db-color);
+        border-color: var(--dhr-color);
+  
+        &:focus {
+          border-color: var(--dhrs-color);
+        }
+      }
+  
+      select {
+        color: var(--f-color);
+      }
+      
+      button {
+        background: var(--db-color);
+        border-color: var(--dhr-color);
+    
+        &:hover {
+          background: var(--ds-color);
+          border-color: var(--dhr-color);
+        }
+      }
+    }
+  }
+}

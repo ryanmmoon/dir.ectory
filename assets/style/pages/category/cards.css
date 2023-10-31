@@ -1,0 +1,137 @@
+.category .content {
+
+  .card {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background: var(--w-color);
+    box-shadow: #0000001a 0px 4px 10px 0px, #0000002a 0px 0px 1px 0px;
+    border: .1rem solid var(--hr-color);
+    border-radius: .25rem;
+    padding: 1rem 2.75rem 1rem 1rem;
+    margin: 1rem 0;
+    scroll-margin-top: 6rem;
+
+    .name {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    .desc {
+      font-size: .95rem;
+      padding: 0;
+      margin: .5rem 0;
+    }
+
+    .links {
+      margin: .5rem 0 .25rem 0;
+
+      .url {
+        display: inline-block;
+        width: fit-content;
+        color: var(--h-color);
+        font-size: .95rem;
+        font-weight: 600;
+        border: .15rem solid var(--hr-color);
+        border-radius: .25rem;
+        padding: .65rem 1.85rem;
+        margin: 0 .25rem 0 0;
+
+        span {
+          font-size: .65rem;
+          margin: 0 0 0 .15rem;
+        }
+
+        &:hover {
+          background: var(--b-color);
+          border-color: var(--h-color);
+        }
+      }
+
+      .owner,
+      .code,
+      .icann {
+        display: inline-block;
+        margin: 0 0 0 .75rem;
+
+        span {
+          position: relative;
+          top: .15rem;
+          color: var(--fs-color);
+          font-size: 1.15rem;
+        }
+
+        &:hover span {
+          color: var(--h-color);
+          cursor: pointer;
+        }
+      }
+
+      .icann {
+        position: relative;
+
+        .tooltip {
+          display: none;
+          position: absolute;
+          top: -3.5rem;
+          left: -4.6rem;
+          width: 10.5rem;
+          background: var(--w-color);
+          border: .15rem solid var(--hr-color);
+          padding: .5rem 0;
+          text-align: center;
+
+          p {
+            color: var(--fs-color);
+            font-size: .8rem;
+            line-height: 1.1rem;
+            padding: 0;
+            margin: 0;
+          }
+        }
+
+        &:hover .tooltip {
+          display: block;
+        }
+      }
+    }
+
+    .icon {
+      grid-column: 2;
+      grid-row: 1/4;
+      padding: .5rem 2rem 0 2rem;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border: none;
+        box-shadow: none;
+      }
+    }
+  }
+
+  .small {
+    grid-template-columns: 2fr 1fr;
+
+    .desc {
+      padding: 0;
+      margin: .5rem 1rem .5rem 0;
+    }
+
+    .links {
+      grid-column: 2;
+      grid-row: 1/3;
+      text-align: right;
+
+      .url {
+        margin: 0 0 0 .25rem;
+      }
+
+      .owner,
+      .code,
+      .icann {
+        margin: 0 .75rem 0 0;
+      }
+    }
+  }
+}

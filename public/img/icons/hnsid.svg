@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<g transform="matrix(1 0 0 1 540 540)" id="8654aef2-9add-40e0-a5f7-d624e2d9219e"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="b7d32ced-1ad5-4a51-a754-c4c97c19111a"  >
+</g>
+<g transform="matrix(5.4 0 0 5.4 540 540)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 0.28 -0.12)"  >
+<radialGradient id="SVGID_c_3" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  cx="101.75" cy="55.06" r="112.26" fx="101.75" fy="18.84">
+<stop offset="2%" style="stop-color:rgb(132,184,249);stop-opacity: 1"/>
+<stop offset="37%" style="stop-color:rgb(88,144,241);stop-opacity: 1"/>
+<stop offset="72%" style="stop-color:rgb(51,109,234);stop-opacity: 1"/>
+<stop offset="90%" style="stop-color:rgb(37,97,232);stop-opacity: 1"/>
+</radialGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_c_3); fill-rule: evenodd; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-100.28, -99.88)" d="M 93.77 183 L 123.94 128.66 L 102.22999999999999 128.69 L 82.35 164.42 L 93.76 183 z M 76.61 71.1 L 97.38 71.08 L 118.25999999999999 35.21 L 106.64999999999999 16.77 L 83.92999999999999 57.540000000000006 L 76.60999999999999 71.10000000000001 z M 143.97 93.11 C 147.85999999999999 86.93 151.23 80.12 154.72 73.7 L 144.47 53.93000000000001 L 133.32999999999998 73.41000000000001 L 143.98 93.11000000000001 z M 56.06 145.84 L 67 126.09 L 56.57 106.43 L 45.84 126.06 L 56.06 145.84 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.42 -31.47)"  >
+<radialGradient id="SVGID_d_4" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1 0 0 1 0 0)"  cx="133.96" cy="61.95" r="107.45" fx="88.64" fy="9.88">
+<stop offset="2%" style="stop-color:rgb(132,184,249);stop-opacity: 1"/>
+<stop offset="19%" style="stop-color:rgb(124,176,247);stop-opacity: 1"/>
+<stop offset="45%" style="stop-color:rgb(102,156,243);stop-opacity: 1"/>
+<stop offset="77%" style="stop-color:rgb(66,124,237);stop-opacity: 1"/>
+<stop offset="100%" style="stop-color:rgb(37,97,232);stop-opacity: 1"/>
+</radialGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_d_4); fill-rule: evenodd; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-100.42, -68.53)" d="M 17.71 123.59 L 39.89 123.63000000000001 C 43.05 117.70000000000002 50.16 103.77000000000001 53.36 98.47000000000001 C 54.78 96.12000000000002 56.13 96.50000000000001 59.46 96.51000000000002 C 85.31 96.51000000000002 112.43 97.42000000000002 138.13 96.48000000000002 L 127.47999999999999 77.48000000000002 C 110.42999999999999 77.21000000000002 91.5 77.46000000000002 74.26999999999998 77.48000000000002 C 70.16999999999999 77.48000000000002 65.75999999999998 76.95000000000002 68.47999999999998 72.05000000000001 L 101.07999999999998 13.430000000000014 L 78.85999999999999 13.460000000000013 L 17.709999999999987 123.59 z M 160.67000000000002 69.77000000000001 L 183.13000000000002 69.77000000000001 L 171.7 50.73 L 150.01999999999998 50.63999999999999 L 160.67999999999998 69.77 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.12 31.35)"  >
+<radialGradient id="SVGID_e_5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.87 0.5 -0.59 1.02 91.09 -62.85)"  cx="119.14" cy="126.84" r="108.19" fx="119.14" fy="51.25">
+<stop offset="3%" style="stop-color:rgb(132,184,249);stop-opacity: 1"/>
+<stop offset="10%" style="stop-color:rgb(121,174,247);stop-opacity: 1"/>
+<stop offset="51%" style="stop-color:rgb(60,118,236);stop-opacity: 1"/>
+<stop offset="71%" style="stop-color:rgb(37,97,232);stop-opacity: 1"/>
+</radialGradient>
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: url(#SVGID_e_5); fill-rule: evenodd; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-100.12, -131.35)" d="M 99.52 186.55 L 130.97 129.53 C 135.79 121.04 129.67 122.28 121.57 122.29 L 72.97 122.33000000000001 L 62.07 102.91000000000001 L 140 102.87 C 147.93 102.87 146.45 102.17 149.59 96.48 C 153.3 89.74000000000001 156.83 82.63000000000001 160.66 76.14 L 182.82 76.16 L 121.28 186.56 L 99.52 186.54 z M 29.08999999999999 149.13 L 50.53999999999999 149.13 L 45.239999999999995 139.39 L 39.879999999999995 129.98 L 17.42 129.98 L 29.090000000000003 149.12 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.28 -0.12)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.12;" vector-effect="non-scaling-stroke"  transform=" translate(-100.28, -99.88)" d="M 93.77 183 L 123.94 128.66 L 102.22999999999999 128.69 L 82.35 164.42 L 93.76 183 z M 76.61 71.1 L 97.38 71.08 L 118.25999999999999 35.21 L 106.64999999999999 16.77 L 83.92999999999999 57.540000000000006 L 76.60999999999999 71.10000000000001 z M 143.97 93.11 C 147.85999999999999 86.93 151.23 80.12 154.72 73.7 L 144.47 53.93000000000001 L 133.32999999999998 73.41000000000001 L 143.98 93.11000000000001 z M 56.06 145.84 L 67 126.09 L 56.57 106.43 L 45.84 126.06 L 56.06 145.84 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.42 -31.47)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.12;" vector-effect="non-scaling-stroke"  transform=" translate(-100.42, -68.53)" d="M 17.71 123.59 L 39.89 123.63000000000001 C 43.05 117.70000000000002 50.16 103.77000000000001 53.36 98.47000000000001 C 54.78 96.12000000000002 56.13 96.50000000000001 59.46 96.51000000000002 C 85.31 96.51000000000002 112.43 97.42000000000002 138.13 96.48000000000002 L 127.47999999999999 77.48000000000002 C 110.42999999999999 77.21000000000002 91.5 77.46000000000002 74.26999999999998 77.48000000000002 C 70.16999999999999 77.48000000000002 65.75999999999998 76.95000000000002 68.47999999999998 72.05000000000001 L 101.07999999999998 13.430000000000014 L 78.85999999999999 13.460000000000013 L 17.709999999999987 123.59 z M 160.67000000000002 69.77000000000001 L 183.13000000000002 69.77000000000001 L 171.7 50.73 L 150.01999999999998 50.63999999999999 L 160.67999999999998 69.77 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(1 0 0 1 0.12 31.35)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 0.12;" vector-effect="non-scaling-stroke"  transform=" translate(-100.12, -131.35)" d="M 99.52 186.55 L 130.97 129.53 C 135.79 121.04 129.67 122.28 121.57 122.29 L 72.97 122.33000000000001 L 62.07 102.91000000000001 L 140 102.87 C 147.93 102.87 146.45 102.17 149.59 96.48 C 153.3 89.74000000000001 156.83 82.63000000000001 160.66 76.14 L 182.82 76.16 L 121.28 186.56 L 99.52 186.54 z M 29.08999999999999 149.13 L 50.53999999999999 149.13 L 45.239999999999995 139.39 L 39.879999999999995 129.98 L 17.42 129.98 L 29.090000000000003 149.12 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

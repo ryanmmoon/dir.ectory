@@ -1,0 +1,43 @@
+body {
+  background: var(--b-color);
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  min-height: calc(100vh - 174px);
+  margin: 4.125rem auto 0 auto;
+}
+
+*,
+*:after,
+*:before {
+  transition: all 0.1s ease;
+  box-sizing: border-box;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: var(--f-color);
+  font-family: var(--p-font);
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  text-underline-offset: .05rem;
+}

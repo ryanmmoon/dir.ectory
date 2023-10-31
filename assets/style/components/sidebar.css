@@ -1,0 +1,59 @@
+.sidebar,
+.sidebar .subcategory {
+  list-style-type: none;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar {
+  position: sticky;
+  top: 6.5rem;
+  height: fit-content;
+
+  li {
+    margin: .75rem .45rem;
+
+    label {
+      display: block;
+      font-family: var(--p-font);
+      color: var(--fs-color);
+      font-size: .9rem;
+      font-weight: 700;
+      margin: .75rem 0;
+    }
+
+    .subcategory li {
+      margin: .35rem 1rem;
+    }
+
+    a {
+      color: var(--f-color);
+      
+      p {
+        display: inline-block;
+        font-size: .9rem;
+        font-weight: 500;
+        transition: none;
+        margin: 0;
+      }
+
+      span {
+        position: relative;
+        top: .05rem;
+        font-size: 1rem;
+        margin: 0 .5rem 0 0;
+      }
+
+      &:hover p {
+        color: var(--h-color);
+        text-decoration: underline;
+      }
+    }
+
+    .highlight p {
+      color: var(--h-color);
+      text-decoration: underline;
+    }
+  }
+}

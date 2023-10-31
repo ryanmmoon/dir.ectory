@@ -1,0 +1,122 @@
+.index .content {
+
+  .hero,
+  .guides,
+  .explore {
+    grid-column: 1/3;
+    margin: 0 0 2.5rem 0;
+
+    p {
+      color: var(--fs-color);
+      font-size: 1.05rem;
+      font-weight: 300;
+      line-height: 1.5rem;
+      padding: 0;
+      margin: 0 0 1rem 0;
+    }
+
+    .cta {
+      display: inline-block;
+      width: fit-content;
+      color: var(--h-color);
+      font-size: .95rem;
+      font-weight: 600;
+      border: .15rem solid var(--hr-color);
+      border-radius: .25rem;
+      padding: .65rem 1.85rem;
+      margin: .5rem .25rem 0 0;
+  
+      &:hover {
+        background: var(--b-color);
+        border-color: var(--h-color);
+      }
+    }
+
+    .secondary {
+      color: var(--f-color);
+      font-size: .95rem;
+      font-weight: 600;
+      margin: 0 1.25rem;
+      transition: none;
+
+      span {
+        font-size: .75rem;
+        margin: 0 .25rem;
+        transition: none;
+      }
+      
+      &:hover {
+        color: var(--h-color);
+        transition: none;
+      }
+    }
+  }
+
+  .hero {
+    padding: 2rem 0 2rem 0;
+
+    h1 {
+      color: var(--fs-color);
+      font-family: var(--s-font);
+      font-size: 2.25rem;
+      font-weight: 700;
+      line-height: 3rem;
+      margin: 1rem 0;
+    }
+
+    p {
+      padding: 0 10rem 0 .1rem;
+    }
+  }
+
+  .guides,
+  .explore {
+    padding: 2rem 0;
+
+    h2 {
+      color: var(--fs-color);
+      font-family: var(--s-font);
+      font-size: 1.5rem;
+      font-weight: 700;
+      line-height: 2.25rem;
+      margin: 1rem 0 .5rem 0;
+    }
+  }
+
+  .guides {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    h2,
+    p {
+      grid-column: 1/3;
+    }
+
+    a {
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.75rem;
+      padding: 1.25rem 4rem 1.35rem 2rem;
+      border: .1rem solid var(--hr-color);
+      border-radius: .25rem;
+
+      &:nth-child(odd) {
+        margin: .5rem .5rem .5rem 0;
+      }
+
+      &:nth-child(even) {
+        margin: .5rem 0 .5rem .5rem;
+      }
+
+      &:hover {
+        background: var(--b-color);
+        border-color: var(--h-color);
+      }
+    }
+  }
+
+  .explore {
+    padding: 2rem 0 0 0;
+    margin: 0;
+  }
+}

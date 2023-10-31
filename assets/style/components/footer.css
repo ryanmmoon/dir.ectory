@@ -1,0 +1,44 @@
+footer {
+  border-top: .1rem solid var(--hr-color);
+
+  .bottom {
+    max-width: 62rem;
+    margin: 0 auto;
+
+    .nav {
+      display: inline-block;
+      list-style-type: none;
+      white-space: nowrap;
+      margin: 0;
+    }
+
+    .nav {
+      padding: 1.25rem 0 4rem 0;
+      margin: 0 0.25rem;
+
+      li {
+        display: inline-block;
+        margin: 0 .5rem;
+
+        a {
+          color: var(--f-color);
+          font-size: .9rem;
+  
+          &:hover { text-decoration: underline }
+        }
+
+        p {
+          display: inline-block;
+          color: var(--f-color);
+          font-size: .9rem;
+          margin: 0 .35rem 0 0;
+        }
+      }
+
+      .highlight a {
+        color: var(--h-color);
+        text-decoration: underline;
+      }
+    }
+  }
+}

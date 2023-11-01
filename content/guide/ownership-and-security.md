@@ -1,13 +1,17 @@
 ---
-title: What problem does Handshake solve – Dir.ectory
-heading: What problem does Handshake solve?
-preview: 
+title: Why replace the existing system | Dir.ectory
+heading: Why replace the existing system?
 excerpt: 
 slug: ownership-and-security
 img: /img/guide/
-author: 
-date: 2023-10-28
+author: Ryan
 public: true
 ---
 
-## What problem does Handshake solve?
+## Why replace the existing system?
+
+<sub>Last updated: Nov 1st, 2023</sub>
+
+The awesome thing about Handshake, it doesn't quite replace the 
+existing domain name system. It builds on top of what has 
+already been created.

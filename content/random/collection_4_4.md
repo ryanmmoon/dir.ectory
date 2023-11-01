@@ -1,5 +1,5 @@
 ---
-title: 4_4 Handshake Collection
+title: 4_4 Collection
 slug: collection_4_4
 icon: 
 description: Collection of 40 Handshake names that contains all double character pairs in the form of *4_4*

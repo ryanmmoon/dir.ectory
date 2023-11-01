@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    title: 'Dir.ectory - Handshake Resources, Guides, and More',
+    title: 'Dir.ectory | Handshake Resources, Guides, and More',
     meta: [
       { 
         name: 'description', 

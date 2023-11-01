@@ -1,5 +1,5 @@
 ---
-title: About - Dir.ectory
+title: About | Dir.ectory
 ---
 
 ## About Dir.ectory

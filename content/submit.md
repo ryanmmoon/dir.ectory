@@ -1,5 +1,5 @@
 ---
-title: Submit Website - Dir.ectory
+title: Submit Website | Dir.ectory
 ---
 
 <!--

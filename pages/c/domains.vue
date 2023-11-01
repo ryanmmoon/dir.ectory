@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    title: 'Domain Portfolios - Handshake Dir.ectory',
+    title: 'Domain Portfolios | Handshake Dir.ectory',
   })
 
   const sites = await queryContent('domains').sort({ priority: 1, offline: 1 }).find()

@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    title: 'Personal Portfolios - Handshake Dir.ectory',
+    title: 'Personal Portfolios | Handshake Dir.ectory',
   })
 
   const sites = await queryContent('portfolios').sort({ priority: 1, offline: 1 }).find()

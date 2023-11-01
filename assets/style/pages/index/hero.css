@@ -19,6 +19,7 @@
       display: inline-block;
       width: fit-content;
       color: var(--h-color);
+      background: var(--w-color);
       font-size: .95rem;
       font-weight: 600;
       border: .15rem solid var(--hr-color);
@@ -27,7 +28,6 @@
       margin: .5rem .25rem 0 0;
   
       &:hover {
-        background: var(--b-color);
         border-color: var(--h-color);
       }
     }
@@ -93,12 +93,15 @@
     }
 
     a {
-      font-size: 1.25rem;
-      font-weight: 600;
-      line-height: 1.75rem;
-      padding: 1.25rem 4rem 1.35rem 2rem;
+      background: var(--w-color);
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 1.5rem;
+      padding: 1rem 1.5rem 1.1rem 1.5rem;
+      box-shadow: #0000001a 0px 4px 10px 0px, #0000002a 0px 0px 1px 0px;
       border: .1rem solid var(--hr-color);
       border-radius: .25rem;
+
 
       &:nth-child(odd) {
         margin: .5rem .5rem .5rem 0;
@@ -109,8 +112,7 @@
       }
 
       &:hover {
-        background: var(--b-color);
-        border-color: var(--h-color);
+        color: var(--h-color);
       }
     }
   }

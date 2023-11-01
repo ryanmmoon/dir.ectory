@@ -9,7 +9,6 @@
       { rel: 'icon', sizes: '16x16', href: '/favicon-16x16.png' },
       { rel: 'manifest', href: '/site.webmanifest' },
       { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#f16114' },
-      { rel: 'stylesheet', href: 'https://i.icomoon.io/public/870f1d17ba/directory/style.css' },
     ],
     meta: [
       { name: 'msapplication-TileColor', content: '#f2dacd' },

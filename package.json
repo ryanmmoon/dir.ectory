@@ -1,6 +1,10 @@
 {
   "name": "dir.ectory",
-  "private": false,
+  "version": "1.0.1",
+  "description": "Discover websites that use or support the Handshake Naming System.",
+  "author": "Ryan Moon",
+  "license": "GPL-3.0-only",
+  "homepage": "https://dir.ectory",
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",

@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    title: 'Companies - Handshake Dir.ectory',
+    title: 'Companies | Handshake Dir.ectory',
   })
 
   const sites = await queryContent('companies').sort({ priority: 1, offline: 1 }).find()

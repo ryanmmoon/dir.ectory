@@ -91,20 +91,26 @@
     p {
       color: var(--dfq-color);
     }
-  
-    .card {
+
+    .cta,
+    .card,
+    .guides a {
       background: var(--ds-color);
       border-color: var(--dhr-color);
     }
 
-    .cta,
-    .guides a {
-      border-color: var(--dhr-color);
-  
+    .cta {
+      background: var(--db-color);
+
       &:hover {
         background: var(--ds-color);
         border-color: var(--dhr-color);
       }
+    }
+
+    .card,
+    .guides a {
+      box-shadow: #4e4e4e0e 0px 4px 10px 0px, #4e4e4e1a 0px 0px 1px 0px;
     }
 
     .secondary {

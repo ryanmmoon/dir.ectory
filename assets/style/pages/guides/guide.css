@@ -1,3 +1,19 @@
 .guide {
   padding: 1rem 4rem 6rem 4rem;
+
+  .content {
+
+    h2 {
+      margin: 2.75rem 0 0 .05rem;
+    }
+
+    p {
+      margin: 0 0 0 .1rem;
+    }
+
+    sub {
+      display: block;
+      margin: 0 0 1rem 0;
+    }
+  }
 }

@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    title: 'Random - Handshake Dir.ectory',
+    title: 'Random | Handshake Dir.ectory',
   })
 
   const sites = await queryContent('random').sort({ priority: 1, offline: 1 }).find()

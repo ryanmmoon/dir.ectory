@@ -1,6 +1,8 @@
-<img src="/public/img/logo-sm.svg" alt="Handshake Dir.ectory.">
+<a href="https://dir.ectory">
+  <img src="/public/img/logo-sm.svg" alt="Handshake Dir.ectory.">
+</a>
 
-#### Accessible directory of resources for new Handshake users
+## Accessible directory of resources for new Handshake users
 
 This project is supported by the Open Systems [Handshake micro grant](https://github.com/opensystm/handshake-micro-grants). Read the initial [project proposal](https://github.com/opensystm/handshake-micro-grants/issues/6).
 
@@ -10,17 +12,17 @@ Developed by: [Ryan Moon](https://ryanmoon)
 
 ### Why create a directory?
 
-[Web directories](https://en.wikipedia.org/wiki/Web_directory) were used when the internet was first becoming popular to find contact information for people and businesses. This same system is still used by many to find information instead of search engines.
+[Web directories](https://en.wikipedia.org/wiki/Web_directory) were used when the internet was first becoming popular to find contact information. These same systems are still used today to find information without the use of search engines.
 
-Finding websites on [Handshake](https://handshake.org) is not that difficult thanks to social media and existing websites in the ecosystem. Though having a directory of website listings in one place will make it even easier to find resources and see what others are building.
+Finding websites on [Handshake](https://handshake.org) is not to difficult thanks to social media and existing websites in the ecosystem. Though having a directory of website listings in one place should help new users find resources faster and see what others are building.
 
 ---
 
 ### Add your website
 
-To add a website to the directory, make a pull request/issue, email the website details to submit@hns.directory, or fill out the form on the '[Submit site](https://dir.ectory/submit/#submit-via-form)' page.
+To add a website to the directory, please make a pull request/issue, email the website details to submit@hns.directory, or fill out the form on the '[Submit site](https://dir.ectory/submit/#submit-via-form)' page.
 
-The process for creating the .md file and making it public can be found in the [documentation](https://dir.ectory/docs). This is done manually at the moment so your website may take some time to be added after submission.
+The process for creating the .md file and making it public can be found in the [documentation](https://dir.ectory/docs). This is currently done manually so your website may take some time to be added.
 
 ---
 
@@ -42,7 +44,7 @@ Field Name      | Description
 
 ---
 
-## Setup
+### Setup
 
 Install dependencies, start development server, build application, preview production build:
 

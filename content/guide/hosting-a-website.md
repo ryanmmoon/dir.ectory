@@ -1,5 +1,5 @@
 ---
-title: How to host a website with Handshake | Dir.ectory
+title: How to host a website with Handshake | HNS Directory
 heading: How to host a website on Handshake?
 excerpt: 
 slug: hosting-a-website

@@ -4,7 +4,6 @@
   background: var(--w-color);
   box-shadow: #0000001a 0px 4px 10px 0px, #0000002a 0px 0px 1px 0px;
   border: .1rem solid var(--hr-color);
-  border-radius: .25rem;
   padding: .85rem 1.25rem;
   margin: .75rem auto .25rem auto;
 

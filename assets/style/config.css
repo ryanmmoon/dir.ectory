@@ -4,8 +4,8 @@
   --s-font: 'Libre Baskerville', sans-serif;
 
   /* Primary Colors */
-  --b-color: #fcfaf9; /* bg */
-  --s-color: #f7d1bc; /* secondary */
+  --b-color: #fdfcfb; /* bg */
+  --s-color: #f0efee; /* secondary */
   --t-color: #b8bdd8; /* trinary */
 
   --w-color: #ffffff; /* white */
@@ -19,7 +19,7 @@
   --ft-color: #313131; /* trinary */
   --fq-color: #000; /* quaternary */
   --fh-color: #262a30; /* hover */
-  --h-color: #f16114; /* highlight */
+  --h-color: #f18a14; /* highlight */
 
   /* Dark Mode */
   --db-color: #1b1b1b; /* bg */

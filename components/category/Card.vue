@@ -1,5 +1,7 @@
 <script setup>
   const { site } = defineProps(['site'])
+
+  const { isDesktopOrTablet } = useDevice();
 </script>
 
 <template>
@@ -16,7 +18,7 @@
     <NuxtLink :to="site.repo" v-if="site.repo" class="code" target="_BLANK"><span class="icon-code"></span></NuxtLink>
   </div>
 
-  <div class="icon">
+  <div v-if="isDesktopOrTablet" class="icon">
     <img :src="'/img/icons/' + site.icon" v-if="site.icon" width="96" height="96" alt="" />
   </div>
 </template>

@@ -17,3 +17,9 @@
     }
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .guide {
+    padding: 1rem 1rem 6rem 1rem;
+  }
+}

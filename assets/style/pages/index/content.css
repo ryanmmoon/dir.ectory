@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 1rem;
-  padding: 0 1rem 4rem 1rem;
+  padding: 0 1rem 2rem 1rem;
 
   h3 {
     color: var(--fs-color);
@@ -11,5 +11,16 @@
     font-size: 1.25rem;
     font-weight: 700;
     line-height: 1.5rem;
+    margin: 3rem 0 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .index .content {
+    display: block;
+
+    h3 {
+      margin: 2.5rem 0 1.25rem 0;
+    }
   }
 }

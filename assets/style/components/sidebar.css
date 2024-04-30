@@ -10,9 +10,14 @@
   position: sticky;
   top: 6.5rem;
   height: fit-content;
+  margin: 0 0 2rem 0;
 
   li {
-    margin: .75rem .45rem;
+    margin: 1.75rem 1.5rem;
+
+    &:first-of-type {
+      margin: .5rem 1.5rem 1.75rem 1.5rem;
+    }
 
     label {
       display: block;
@@ -55,5 +60,11 @@
       color: var(--h-color);
       text-decoration: underline;
     }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sidebar {
+    display: none;
   }
 }

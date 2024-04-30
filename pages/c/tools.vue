@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    title: 'Tools | Handshake Dir.ectory',
+    title: 'Tools | HNS Directory',
   })
 
   const sites = await queryContent('tools').sort({ priority: 1, offline: 1 }).find()

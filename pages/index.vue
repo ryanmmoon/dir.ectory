@@ -1,11 +1,8 @@
 <script setup>
   useHead({
-    title: 'Dir.ectory | Handshake Resources, Guides, and More',
+    title: 'HNS Directory | Handshake Resources, Guides, and More',
     meta: [
-      { 
-        name: 'description', 
-        content: `Find out what others have built in the Handshake ecosystem by searching through our directory of websites.` 
-      },      
+      { name: 'description', content: `See what others have built in the Handshake ecosystem by searching through our directory of websites.` },      
     ],
   })
 </script>
@@ -14,10 +11,10 @@
   <div class="index">
     <Sidebar index="true" />
     <div class="content">
-      
-      <IndexIntro />
 
       <!-- <IndexAlert /> -->
+
+      <IndexIntro />
       
       <IndexCategory title="Registrars" category="registrars" />
       <IndexCategory title="Tools" category="tools" />
@@ -37,9 +34,6 @@
 
       <!-- <IndexCategory title="" category="" /> -->
 
-      <!-- <IndexShare /> -->
-
     </div>
-
   </div>
 </template>

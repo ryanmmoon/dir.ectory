@@ -1,9 +1,11 @@
 <script setup>
   useHead({
-    title: 'Blogs | Handshake Dir.ectory',
+    title: 'Blogs | HNS Directory',
   })
 
   const sites = await queryContent('blogs').sort({ priority: 1, offline: 1 }).find()
+
+  const { isMobile, isDesktopOrTablet } = useDevice()
 
   const layout = "category";
 </script>
@@ -13,7 +15,10 @@
     <h2>Blogs</h2>
     <p>Blogs about anything and everthing hosted with Handshake.</p>
 
-    <div :class="site.offline ? 'card offline' : 'card'" v-for="site in sites" :id="site.slug" :key="site.slug">
+    <div v-if="isDesktopOrTablet" :class="site.offline ? 'card small offline' : 'card small'" v-for="site in sites" :id="site.slug" :key="site.slug">
+      <CategorySmallcard :site="site" />
+    </div>
+    <div v-if="isMobile" :class="site.offline ? 'card offline' : 'card'" v-for="site in sites" :id="site.slug" :key="site.slug">
       <CategoryCard :site="site" />
     </div>
   </NuxtLayout>

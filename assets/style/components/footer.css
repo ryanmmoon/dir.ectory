@@ -9,12 +9,11 @@ footer {
       display: inline-block;
       list-style-type: none;
       white-space: nowrap;
-      margin: 0;
     }
 
     .nav {
-      padding: 1.25rem 0 4rem 0;
-      margin: 0 0.25rem;
+      padding: 1.25rem 0;
+      margin: 0 1.75rem;
 
       li {
         display: inline-block;
@@ -40,5 +39,11 @@ footer {
         text-decoration: underline;
       }
     }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  footer {
+    display: none;
   }
 }

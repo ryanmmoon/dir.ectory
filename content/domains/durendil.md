@@ -9,5 +9,5 @@ url: http://domains.durendil/
 docs: 
 repo: 
 owner: https://twitter.com/TLD_Owner
-priority: 4.5
+priority: 3.5
 ---

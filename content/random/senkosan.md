@@ -9,5 +9,5 @@ url: http://senkosan/
 docs: 
 repo: 
 owner: https://mastodon.social/@senkosan
-priority: 4
+priority: 3.5
 ---

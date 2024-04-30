@@ -6,7 +6,6 @@
     background: var(--w-color);
     box-shadow: #0000001a 0px 4px 10px 0px, #0000002a 0px 0px 1px 0px;
     border: .1rem solid var(--hr-color);
-    border-radius: .25rem;
     padding: 1rem 2.75rem 1rem 1rem;
     margin: 1rem 0;
     scroll-margin-top: 6rem;
@@ -131,6 +130,20 @@
       .code,
       .icann {
         margin: 0 .75rem 0 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .category .content {
+
+    .card {
+      display: block;
+      padding: 1rem 1.75rem 1rem 1rem;
+
+      .desc {
+        margin: .75rem 0 1rem 0;
       }
     }
   }

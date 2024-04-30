@@ -1,5 +1,5 @@
 ---
-title: Getting started with Handshake | Dir.ectory
+title: Getting started with Handshake | HNS Directory
 heading: Getting started with Handshake
 excerpt: 
 slug: getting-started
@@ -29,6 +29,8 @@ or <a href="/c/registrars/#namebase">Namebase</a>.
 Before you can mint a name however, you will have to purchase $HNS 
 from an exchange. <a href="https://coinmarketcap.com/currencies/handshake/" target="_BLANK">CoinMarketCap</a>
 keeps track of which exchanges currently offer HNS.
+
+### The auction process
 
 ### I have a name, now what to do
 

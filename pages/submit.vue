@@ -1,52 +1,53 @@
 <script setup>
   const mail = useMail()
 
-  const title = ref('')
-  const slug = ref('')
-  const url = ref('')
-  const icon = ref('')
-
-  const desc = ref('')
-
-  const docs = ref('')
-  const repo = ref('')
-  const owner = ref('')
-  const email = ref('')
+  const info = reactive({
+    title: undefined,
+    slug: undefined,
+    url: undefined,
+    icon: undefined,
+    desc: undefined,
+    docs: undefined,
+    repo: undefined,
+    owner: undefined,
+    email: undefined,
+    test: undefined,
+    sent: false
+  })
 
   const submit = async() => {
 
     let details = `
 
-      Website added from 'Submit Site' page
+Website added from 'Submit Site' page
 
-      ---
-      title: ${ title.value }
-      slug: ${ slug.value }
-      icon: ${ icon.value }
-      description: ${ desc.value }
-      offline: false
-      handshake:
-      url: ${ url.value }
-      docs: ${ docs.value }
-      repo: ${ repo.value }
-      owner: ${ owner.value }
-      priority: 
-      ---
+---
+title: ${ info.title }
+slug: ${ info.slug }
+icon: ${ info.icon }
+description: ${ info.desc }
+offline: false
+handshake:
+url: ${ info.url }
+docs: ${ info.docs }
+repo: ${ info.repo }
+owner: ${ info.owner }
+priority: 
+---
 
-      Reply to me please: ${ email.value }
-
-      Best,
-      Dir.ectory Submission Form esq.
+Reply to me please: ${ email }
 
     `
 
-    // console.log(details)
+    if (info.test === undefined) {
+      mail.send({
+        from: 'submit@hns.directory',
+        subject: info.title + ' - Site Submission',
+        text: details,
+      })
 
-    mail.send({
-      from: 'submit@hns.directory',
-      subject: title.value + ' - Site Submission',
-      text: details,
-    })
+      info.sent = true
+    }
   }
 
 </script>
@@ -57,53 +58,59 @@
     <ContentDoc class="content" />
 
     <!-- Submit form -->
-    <form @submit.prevent="onSubmit">
+    <form v-if="!info.sent" :state="info" @submit.prevent="onSubmit">
       <div class="group">
-        <label for="title">Title<span aria-hidden="true">*</span></label>
-        <input v-model="title" id="title" type="text" placeholder="Awesome Website" required="true" />
+        <label for="title">Title</label>
+        <input v-model="info.title" id="title" type="text" placeholder="Awesome Website" required="true" />
       </div>
 
       <div class="group">
-        <label for="slug">Slug<span aria-hidden="true">*</span></label>
-        <input v-model="slug" id="slug" type="text" placeholder="awesome" required="true" />
+        <label for="slug">Slug</label>
+        <input v-model="info.slug" id="slug" type="text" placeholder="awesome" required="true" />
       </div>
 
       <div class="group">
-        <label for="url">URL<span aria-hidden="true">*</span></label>
-        <input v-model="url" id="url" type="text" placeholder="https://awesome/" required="true" />
+        <label for="url">URL</label>
+        <input v-model="info.url" id="url" type="text" placeholder="https://awesome/" required="true" />
       </div>
 
       <div class="group">
         <label for="icon">Icon<sub>(optional)</sub></label>
-        <input v-model="icon" id="icon" type="text" placeholder="some.jpg" />
+        <input v-model="info.icon" id="icon" type="text" placeholder="some.jpg" />
       </div>
 
       <div class="group desc">
         <label for="desc">Description<sub>(optional)</sub></label>
-        <textarea v-model="desc" id="desc" placeholder="Short description of website and services offered" ></textarea>
+        <textarea v-model="info.desc" id="desc" placeholder="Short description of website and services offered" ></textarea>
       </div>
 
       <div class="group">
         <label for="docs">Documentation<sub>(optional)</sub></label>
-        <input v-model="docs" id="docs" type="text" placeholder="https://docs.awesome/" />
+        <input v-model="info.docs" id="docs" type="text" placeholder="https://docs.awesome/" />
       </div>
 
       <div class="group">
         <label for="repo">Git Repo<sub>(optional)</sub></label>
-        <input v-model="repo" id="repo" type="text" placeholder="https://github.com/handsha..." />
+        <input v-model="info.repo" id="repo" type="text" placeholder="https://github.com/handsha..." />
       </div>
 
       <div class="group">
         <label for="owner">Website Owner<sub>(optional)</sub></label>
-        <input v-model="owner" id="owner" type="text" placeholder="https://twitter.com/awesome_" />
+        <input v-model="info.owner" id="owner" type="text" placeholder="https://twitter.com/awesome_" />
       </div>
 
       <div class="group">
         <label for="email">E-mail<sub>(optional)</sub></label>
-        <input v-model="email" id="email" type="email" placeholder="support@awesome.dev" />
+        <input v-model="info.email" id="email" type="email" placeholder="support@awesome.dev" />
       </div>
 
       <button @click="submit()" >Submit</button>
     </form>
+
+    <div class="success" v-if="info.sent">
+      <h4>🎉 Success 🎉</h4>
+      <p>Your website was submitted and will be added soon. If provided, we will email you when added. Thank you for supporting our directory.</p>
+    </div>
+
   </div>
 </template>

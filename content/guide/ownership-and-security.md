@@ -1,5 +1,5 @@
 ---
-title: Why replace the existing system | Dir.ectory
+title: Why replace the existing system | HNS Directory
 heading: Why replace the existing system?
 excerpt: 
 slug: ownership-and-security

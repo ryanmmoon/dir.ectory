@@ -18,25 +18,37 @@
     color: var(--df-color);
   }
 
+  .overlay {
+    background-color: var(--db-color);
+    background-color: rgba(#1b1b1b, .96);
+  
+    .info {
+      background-color: var(--ds-color);
+
+      span,
+      h1 {
+        color: var(--dft-color);
+      }
+    }
+  }
+
   header {
-    background: var(--ds-color);
+    background: var(--db-color);
     border-color: var(--dhr-color);
   
-    .nav {  
-      .logo {
-        .hns,
-        .dir {
-          color: var(--df-color);
-        }
+    .nav {
 
-        .hns {
-          line-height: 1.75rem;
-        }
+      .logo.dark {
+        display: block;
+      }
+
+      .logo.light {
+        display: none;
       }
 
       select {
         color: var(--dfs-color);
-        background: var(--ds-color);
+        background: var(--db-color);
 
         &:hover {
           color: var(--dfh-color);
@@ -51,6 +63,10 @@
           &:hover {
             color: var(--dfh-color);
           }
+        }
+        
+        .highlight {
+          color: var(--dfh-color);
         }
       }
     }
@@ -242,6 +258,16 @@
           border-color: var(--dhr-color);
         }
       }
+    }
+  }
+
+  .success {
+    h4 {
+      color: var(--dft-color);
+    }
+    
+    p {
+      color: var(--dfq-color);
     }
   }
 }

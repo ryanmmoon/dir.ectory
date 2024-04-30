@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    title: 'Registrars | Handshake Dir.ectory',
+    title: 'Registrars | HNS Directory',
   })
 
   const sites = await queryContent('registrars').sort({ priority: 1, offline: 1 }).find()
@@ -11,7 +11,7 @@
 <template>
   <NuxtLayout :name="layout">
     <h2>Registrars</h2>
-    <p>Places to register Handshake Top Level and Second Level Domains.</p>
+    <p>Places to register Handshake top-level and second-level domains.</p>
 
     <div :class="site.offline ? 'card offline' : 'card'" v-for="site in sites" :id="site.slug" :key="site.slug">
       <CategoryCard :site="site" />

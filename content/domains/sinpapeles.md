@@ -9,5 +9,5 @@ url: http://parking.sinpapeles/
 docs: 
 repo: https://github.com/sinpapeles/parking.sinpapeles
 owner: https://twitter.com/SinpapelesHNS
-priority: 3
+priority: 2
 ---

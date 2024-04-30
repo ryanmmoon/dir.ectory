@@ -28,6 +28,7 @@
 @import 'components/header';
 @import 'components/sidebar';
 @import 'components/footer';
+@import 'components/overlay';
 
 /* Dark mode */
 @import 'dark';

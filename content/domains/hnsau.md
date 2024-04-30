@@ -9,5 +9,5 @@ url: https://domains.hnsau/
 docs: 
 repo: https://github.com/Handshake-AU
 owner: https://twitter.com/woodburn_nathan
-priority: 2
+priority: 6
 ---

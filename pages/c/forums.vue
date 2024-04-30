@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    title: 'Forums | Handshake Dir.ectory',
+    title: 'Forums | HNS Directory',
   })
 
   const sites = await queryContent('forums').sort({ priority: 1, offline: 1 }).find()
@@ -11,7 +11,7 @@
 <template>
   <NuxtLayout :name="layout">
     <h2>Forums</h2>
-    <p>Forums hosted on Handshake.</p>
+    <p>Community forums hosted on Handshake.</p>
 
     <div :class="site.offline ? 'card offline' : 'card'" v-for="site in sites" :id="site.slug" :key="site.slug">
       <CategoryCard :site="site" />

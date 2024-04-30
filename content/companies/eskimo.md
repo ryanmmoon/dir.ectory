@@ -9,5 +9,5 @@ url: https://eskimosoftware/
 docs: 
 repo: 
 owner: https://twitter.com/eskimo_dev
-priority: 2
+priority: 5
 ---

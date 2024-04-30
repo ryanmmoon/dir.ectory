@@ -4,7 +4,6 @@
   background: var(--w-color);
   box-shadow: #0000001a 0px 4px 10px 0px, #0000002a 0px 0px 1px 0px;
   border: .1rem solid var(--hr-color);
-  border-radius: .25rem;
   padding: .75rem 1rem;
   margin: .25rem 0;
 
@@ -18,8 +17,9 @@
 
   span {
     position: absolute;
+    top: .95rem;
     right: 1.5rem;
-    font-size: 1.35rem;
+    font-size: 1.15rem;
   }
 
   &:hover {
@@ -28,4 +28,11 @@
       color: var(--h-color);
     }
   } 
+}
+
+@media only screen and (max-width: 480px) {
+  .index .content .card {
+    display: block;
+    margin: .75rem 0;
+  }
 }

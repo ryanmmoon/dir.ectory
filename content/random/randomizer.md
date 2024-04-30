@@ -9,5 +9,5 @@ url: https://fun.randomizer/
 docs: 
 repo: 
 owner: https://twitter.com/dj_cryptography
-priority: 2
+priority: 2.5
 ---

@@ -1,10 +1,10 @@
 ---
-title: About | Dir.ectory
+title: About | HNS Directory
 ---
 
-## About Dir.ectory
+## About
 
-Thank you for visiting the Handshake Dir.ectory. 
+Thank you for visiting the Handshake Directory. 
 
 Here you can find info about websites that use or support the Handshake Naming System, organized by category.
 
@@ -16,25 +16,25 @@ Want to add your website to the directory? Visit the '<a href="/submit">Submit S
 
 ### Website Priority
 
-Dir.ectory uses a ranking system to decide the order in which websites are displayed.
+Our directory uses a ranking system to decide the order in which websites are displayed.
 
-**Hosted with Handshake TLD**
+**1. Hosted on Handshake**
 
 Is the website hosted using a Handshake TLD? (*extra kudos if website is available exclusively on Handshake*)
 
-**Secure/SSL**
+**2. Secure/SSL**
 
 Does the website have a secure connection?
 
-**Quality of website/Effort made**
+**3. Quality of website/Effort made**
 
 Was the design well thought out, does the content provide great benefit to it's users, and has the website been updated recently?
 
-**Open Source/Free Software**
+**4. Open Source/Free Software**
 
 Is the source code freely available?
 
-**Userbase**
+**5. Userbase**
 
 Does the website have a large userbase?
 

@@ -1,9 +1,11 @@
 <script setup>
   useHead({
-    title: 'Personal Portfolios | Handshake Dir.ectory',
+    title: 'Portfolios | HNS Directory',
   })
 
   const sites = await queryContent('portfolios').sort({ priority: 1, offline: 1 }).find()
+
+  const { isMobile, isDesktopOrTablet } = useDevice()
 
   const layout = "category";
 </script>
@@ -13,8 +15,11 @@
     <h2>Personal Portfolios</h2>
     <p>Find inspiration and learn about awesome developers, artist, photographers and many others who host portfolios using Handshake.</p>
 
-    <div :class="site.offline ? 'card small offline' : 'card small'" v-for="site in sites" :id="site.slug" :key="site.slug">
+    <div v-if="isDesktopOrTablet" :class="site.offline ? 'card small offline' : 'card small'" v-for="site in sites" :id="site.slug" :key="site.slug">
       <CategorySmallcard :site="site" />
+    </div>
+    <div v-if="isMobile" :class="site.offline ? 'card offline' : 'card'" v-for="site in sites" :id="site.slug" :key="site.slug">
+      <CategoryCard :site="site" />
     </div>
   </NuxtLayout>
 </template>

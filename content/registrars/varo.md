@@ -9,5 +9,5 @@ url: https://varo/
 docs: 
 repo: 
 owner: https://twitter.com/eskimo_dev
-priority: 1
+priority: 1.5
 ---

@@ -1,0 +1,87 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--b-color);
+  background-color: rgba(#fdfcfb, .9);
+  z-index: 999;
+
+  .info {
+    width: 36rem;
+    height: 30rem;
+    background-color: var(--s-color);
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    padding: 2.5rem 3rem;
+    margin: auto;
+
+    span {
+      position: absolute;
+      top: 2.5rem;
+      right: 2.5rem;
+      color: var(--f-color);
+      font-size: 1.25rem;
+      cursor: pointer;
+    }
+
+    h1 {
+      color: var(--fs-color);
+      font-family: var(--s-font);
+      font-size: 1.75rem;
+      font-weight: 700;
+      line-height: 2.5rem;
+      margin: 1rem 0;
+    }
+
+    p {
+      padding: 2rem 0;
+      margin: 0;
+
+      a {
+        color: var(--l-color);
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .resolvers {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      padding: .25rem .05rem;
+
+      .card {
+        margin: 1.25rem 0 0 0;
+
+        a {
+          display: inline-block;
+          color: var(--l-color);
+          font-size: 1.15rem;
+          font-weight: 500;
+          padding: 0;
+          margin: 0;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+  
+        p {
+          padding: .5rem 0;
+          margin: 0;
+        }
+      }
+    }
+  }
+}

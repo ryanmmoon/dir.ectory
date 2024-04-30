@@ -1,5 +1,5 @@
 ---
-title: Is Handshake the future of domains | Dir.ectory
+title: Is Handshake the future of domains | HNS Directory
 heading: Is Handshake the future of domains?
 excerpt: 
 slug: future-of-domains

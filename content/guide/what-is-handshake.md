@@ -1,5 +1,5 @@
 ---
-title: What is Handshake | Dir.ectory
+title: What is Handshake | HNS Directory
 heading: What is Handshake?
 excerpt: 
 slug: what-is-handshake

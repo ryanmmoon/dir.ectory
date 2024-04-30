@@ -1,6 +1,6 @@
 <script setup>
   useHead({
-    title: 'Guides | Handshake Dir.ectory',
+    title: 'Guides | HNS Directory',
   })
 
   const guides = await queryContent('guide').sort({ date: 1 }).find()

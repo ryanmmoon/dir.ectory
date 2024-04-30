@@ -3,8 +3,12 @@
   display: grid;
   grid-template-columns: 3fr 10fr;
   max-width: 68rem;
-  padding: 2rem 4rem;
+  padding: 2rem 4rem 0 4rem;
   margin: 0 auto;
+}
+
+.index {
+  padding: 2rem 4rem;
 }
 
 .about,
@@ -88,4 +92,21 @@
     }
   }
 
+}
+
+@media only screen and (max-width: 480px) {
+  .index,
+  .category {
+    display: block;
+    padding: 2rem 1rem;
+    margin: 0 auto;
+  }
+
+  .about,
+  .submit,
+  .guide,
+  .stats {
+    display: block;
+    padding: 2rem 1rem;
+  }
 }

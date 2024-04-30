@@ -9,5 +9,5 @@ url: https://handshake.conference/
 docs: 
 repo: 
 owner: https://twitter.com/handshakecon
-priority: 1
+priority: 2
 ---

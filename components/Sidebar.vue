@@ -1,14 +1,16 @@
 <script setup>
   const route = useRoute()
+
+  const { isDesktopOrTablet } = useDevice();
 </script>
 
 <template>
-  <ul class="sidebar">
+  <ul class="sidebar" v-if="isDesktopOrTablet" >
     <li>
       <label>Getting Started</label>
       <ul class="subcategory">
         <li><NuxtLink to="/c/registrars/" :class="route.path === '/c/registrars/' ? 'highlight' : ''">
-          <span class="icon-handshake"></span><p>Registrars</p></NuxtLink></li>
+          <span class="icon-registrars"></span><p>Registrars</p></NuxtLink></li>
         <li><NuxtLink to="/c/tools/" :class="route.path === '/c/tools/' ? 'highlight' : ''">
           <span class="icon-tools"></span><p>Tools</p></NuxtLink></li>
         <li><NuxtLink to="/c/tutorials/" :class="route.path === '/c/tutorials/' ? 'highlight' : ''">
@@ -24,6 +26,8 @@
           <span class="icon-domains"></span><p>Domains</p></NuxtLink></li>
         <li><NuxtLink to="/c/forums/" :class="route.path === '/c/forums/' ? 'highlight' : ''">
           <span class="icon-forums"></span><p>Forums</p></NuxtLink></li>
+        <li><NuxtLink to="/c/chapters/" :class="route.path === '/c/chapters/' ? 'highlight' : ''">
+          <span class="icon-rings"></span><p>Chapters</p></NuxtLink></li>
         <!--
           <li><NuxtLink to="/c/social/" :class="route.path === '/c/social/' ? 'highlight' : ''">
             <p>Social</p></NuxtLink></li>

@@ -9,5 +9,5 @@ url: https://registry.neuenet/
 docs:
 repo: https://github.com/neuenet/extensions
 owner: https://twitter.com/neuenet
-priority: 1
+priority: 2
 ---

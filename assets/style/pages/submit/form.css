@@ -116,4 +116,27 @@
       }
     }
   }
+
+  .success {
+    grid-column: 2;
+    padding: 1rem 1.25rem;
+
+    h4 {
+      color: var(--f-color);
+      font-size: 1.25rem;
+      font-family: var(--s-font);
+      font-weight: 600;
+      padding: .5rem 0;
+      margin: 0;
+    }
+
+    p {
+      color: var(--fs-color);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5rem;
+      padding: .5rem 0;
+      margin: 0;
+    }
+  }
 }

@@ -9,5 +9,5 @@ url: http://blast.outofthisworld/portfolio.html
 docs: 
 repo: 
 owner: 
-priority: 5
+priority: 4.5
 ---

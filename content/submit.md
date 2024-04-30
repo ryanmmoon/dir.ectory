@@ -1,5 +1,5 @@
 ---
-title: Submit Website | Dir.ectory
+title: Submit Website | HNS Directory
 ---
 
 <!--
@@ -23,12 +23,12 @@ title: Submit Website | Dir.ectory
 
 ## Submit your website
 
-Thank you for taking the time to add your website to the directory.
+Thank you for taking the time to add your website to our directory.
 
 ### Details of adding a website
 
 Nuxt Content is used to manage websites. This allows for easy 
-updating and organization of websites by category. 
+updating and organization of websites without a database. 
 
 Adding a website involves creating a .md file inside one of the 
 content subfolders that includes some basic details:
@@ -45,7 +45,7 @@ content subfolders that includes some basic details:
 `owner: // link to where website owner can be reached`
 `--- `
 
-Learn more about adding websites in the <a href="/docs">documentation</a>
+Only a title, slug, and url are needed for a site to be added.
 
 ### Submit via Github
 

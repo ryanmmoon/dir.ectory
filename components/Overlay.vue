@@ -3,6 +3,8 @@
 
   overlay.value = overlay.value !== false ? true : overlay.value
 
+  const { isDesktopOrTablet } = useDevice();
+
   function toggleOverlay() {
     overlay.value = false
   }
@@ -12,7 +14,7 @@
   <div v-if="overlay" class="overlay nohns" >
     <div class="info">
       <span class="icon-x" @click="toggleOverlay()"></span>
-      <h1>Looks like Handshake is not configured in your browser. <br>Enable it using:</h1>
+      <h1>Looks like Handshake is not configured in your browser. <br v-if="isDesktopOrTablet">Enable it using:</h1>
       <div class="resolvers">
         <div class="card">
           <NuxtLink to="https://impervious.com/fingertip" target="_BLANK">Fingertip</NuxtLink>

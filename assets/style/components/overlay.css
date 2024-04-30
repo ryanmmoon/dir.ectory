@@ -78,10 +78,27 @@
         }
   
         p {
+          line-height: 1.5rem;
           padding: .5rem 0;
           margin: 0;
         }
       }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+  
+    .info {
+      width: 100vw;
+      height: 100vh;
+      padding: 2.5rem 2rem;
     }
   }
 }

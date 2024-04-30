@@ -8,7 +8,6 @@
       { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
       { rel: 'manifest', href: '/site.webmanifest' },
-      { rel: 'stylesheet', href: 'https://i.icomoon.io/public/870f1d17ba/directory/style.css' },
     ],
     meta: [
       { name: 'msapplication-TileColor', content: '#5f5e5d' },
